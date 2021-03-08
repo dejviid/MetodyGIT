@@ -21,8 +21,12 @@ namespace MetodyGIT
         {
             double a = Convert.ToInt32(textBox1.Text.ToString());
             double b = Convert.ToInt32(textBox2.Text.ToString());
+            double soucet = a + b;
             double soucin = a * b;
+            double rozdil = a - b;
+            MessageBox.Show("Soucet je: " + soucet.ToString());
             MessageBox.Show("Soucin je: " + soucin.ToString());
+            MessageBox.Show("Rozdil je: " + rozdil.ToString());
         }
     }
 }
