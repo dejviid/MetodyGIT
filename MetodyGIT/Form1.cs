@@ -31,6 +31,7 @@ namespace MetodyGIT
             MessageBox.Show("Podil je: " + podil.ToString());
             label1.Text = "podil";
             label2.Text = "podil";
+            label3.Text = "podil";
         }
     }
 }
