@@ -32,6 +32,7 @@ namespace MetodyGIT
             label1.Text = "podil";
             label2.Text = "podil";
             label3.Text = "podil";
+            label4.Text = "podil";
         }
     }
 }
