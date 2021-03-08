@@ -29,6 +29,8 @@ namespace MetodyGIT
             MessageBox.Show("Soucin je: " + soucin.ToString());
             MessageBox.Show("Rozdil je: " + rozdil.ToString());
             MessageBox.Show("Podil je: " + podil.ToString());
+            label1.Text = "podil";
+            label2.Text = "podil";
         }
     }
 }
