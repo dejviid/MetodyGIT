@@ -16,5 +16,13 @@ namespace MetodyGIT
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToInt32(textBox1.Text.ToString());
+            double b = Convert.ToInt32(textBox2.Text.ToString());
+            double soucin = a * b;
+            MessageBox.Show("Soucin je: " + soucin.ToString());
+        }
     }
 }
