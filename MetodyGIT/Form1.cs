@@ -24,9 +24,11 @@ namespace MetodyGIT
             double soucet = a + b;
             double soucin = a * b;
             double rozdil = a - b;
+            double podil = a / b;
             MessageBox.Show("Soucet je: " + soucet.ToString());
             MessageBox.Show("Soucin je: " + soucin.ToString());
             MessageBox.Show("Rozdil je: " + rozdil.ToString());
+            MessageBox.Show("Podil je: " + podil.ToString());
         }
     }
 }
